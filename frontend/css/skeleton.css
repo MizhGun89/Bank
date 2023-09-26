@@ -1,0 +1,44 @@
+.is-loading {
+  background: #eee;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  /* background: linear-gradient(110deg, #ececec 8%, #4586ca 18%, #ececec 33%); */
+  border-radius: 15px;
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+  border: none;
+}
+
+.is-loading__header,
+.is-loading__btn {
+  background: #116acc;
+  background: linear-gradient(110deg, #116acc 8%, #4586ca 18%, #116acc 33%);
+  background-size: 200% 100%;
+  border-radius: 15px;
+  animation: 1.5s shine linear infinite;
+}
+
+.is-loading__title {
+  margin-top: 50px;
+  margin-bottom: 35px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.is-loading__login {
+  width: 500px;
+  height: 366px;
+  border-radius: 50px;
+}
+.is-loading__currency {
+  min-height: 1180px;
+}
+
+.is-loading__currency-title {
+  margin-bottom: 35px;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
